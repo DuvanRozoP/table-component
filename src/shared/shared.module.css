@@ -1,0 +1,24 @@
+.basicTable {
+  border-collapse: collapse;
+}
+
+.basicTable tr:hover {
+  background-color: #eaf6ff;
+}
+
+.basicTable td,
+.basicTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.basicTable tbody tr td:nth-child(3) {
+  color: blue;
+  text-decoration: underline;
+}
+
+.basicTable * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

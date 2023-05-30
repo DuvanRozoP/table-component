@@ -95,7 +95,7 @@ function App() {
       />
 
       {visibleUsers < users.length && (
-        <button onClick={() => setVisibleUsers(prevCount => prevCount + 5)}>
+        <button onClick={() => setVisibleUsers(visibleUsers + 5)}>
           Cargar más
         </button>
       )}
